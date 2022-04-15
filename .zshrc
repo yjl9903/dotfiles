@@ -2,6 +2,10 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 export EDITOR=code
 
+# JavaScript Tool Manager https://volta.sh/
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+
 #### proxy
 function proxy {
   if [ -z "$1" ] ; then
@@ -35,9 +39,6 @@ alias ll='exa --header --long --git --icons --classify --group --color-scale --g
 
 # Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
-
-# https://github.com/Schniz/fnm
-eval "$(fnm env)"
 
 # https://github.com/starship/starship
 eval "$(starship init zsh)"
