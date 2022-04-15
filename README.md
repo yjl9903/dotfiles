@@ -6,6 +6,13 @@ Terminal: [Warp](https://www.warp.dev/)
 
 Zsh: [.zshrc](/.zshrc)
 
+### Tools
+
++ [Homebrew](https://brew.sh/): The Missing Package Manager for macOS
++ [Maccy](https://maccy.app/): Clipboard manager for macOS
++ [Snipaste](https://www.snipaste.com/): A simple but powerful snipping tool, and also allows you to pin the screenshot back onto the screen
++ [Fig](https://fig.io/): Fig adds IDE-style autocomplete to your existing terminal
+
 ## Windows
 
 Terminal: [Windows Terminal](https://github.com/microsoft/terminal)
