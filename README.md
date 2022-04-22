@@ -21,5 +21,6 @@ Terminal: [Windows Terminal](https://github.com/microsoft/terminal)
 
 + [Volta](https://volta.sh/): The Hassle-Free JavaScript Tool Manager
 + [tokei](https://github.com/XAMPPRocky/tokei): Count line numbers
++ [onefetch](https://github.com/o2sh/onefetch): Git repository summary on your terminal
 + [bottom](https://github.com/ClementTsang/bottom): Yet another cross-platform graphical process/system monitor
 + [fd](https://github.com/sharkdp/fd): A simple, fast and user-friendly alternative to 'find'
