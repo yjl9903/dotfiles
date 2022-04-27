@@ -25,3 +25,8 @@ Terminal: [Windows Terminal](https://github.com/microsoft/terminal)
 + [onefetch](https://github.com/o2sh/onefetch): Git repository summary on your terminal
 + [bottom](https://github.com/ClementTsang/bottom): Yet another cross-platform graphical process/system monitor
 + [fd](https://github.com/sharkdp/fd): A simple, fast and user-friendly alternative to 'find'
+
+### npm
+
++ [rimraf](https://github.com/isaacs/rimraf): A `rm -rf` util for nodejs
++ [degit](https://github.com/Rich-Harris/degit): Straightforward project scaffolding
