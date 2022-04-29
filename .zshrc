@@ -40,5 +40,9 @@ alias ll='exa --header --long --git --icons --classify --group --color-scale --g
 # Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# Jabba
+[ -s "/Users/xlor/.jabba/jabba.sh" ] && source "/Users/xlor/.jabba/jabba.sh"
+jabba use zulu@1.8.282
+
 # https://github.com/starship/starship
 eval "$(starship init zsh)"
