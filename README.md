@@ -20,6 +20,14 @@ Terminal: [Windows Terminal](https://github.com/microsoft/terminal)
 ## CLI
 
 + [Volta](https://volta.sh/): The Hassle-Free JavaScript Tool Manager
++ [jabba](https://github.com/shyiko/jabba): Java Version Manager
 + [tokei](https://github.com/XAMPPRocky/tokei): Count line numbers
++ [onefetch](https://github.com/o2sh/onefetch): Git repository summary on your terminal
 + [bottom](https://github.com/ClementTsang/bottom): Yet another cross-platform graphical process/system monitor
 + [fd](https://github.com/sharkdp/fd): A simple, fast and user-friendly alternative to 'find'
+
+### npm
+
++ [rimraf](https://github.com/isaacs/rimraf): A `rm -rf` util for nodejs
++ [degit](https://github.com/tiged/tiged): Straightforward project scaffolding (community driven fork)
++ [http-server](https://github.com/http-party/http-server): A simple zero-configuration command-line http server

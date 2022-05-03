@@ -48,5 +48,9 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ZSH_HIGHLIGHT_STYLES[single-hyphen-option]=fg=white
 ZSH_HIGHLIGHT_STYLES[double-hyphen-option]=fg=white
 
+# Jabba
+# [ -s "/Users/xlor/.jabba/jabba.sh" ] && source "/Users/xlor/.jabba/jabba.sh"
+# jabba use zulu@1.8.282
+
 # https://github.com/starship/starship
 eval "$(starship init zsh)"
