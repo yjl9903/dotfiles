@@ -29,6 +29,7 @@ Terminal: [Windows Terminal](https://github.com/microsoft/terminal)
 
 ### npm
 
++ [taze](https://github.com/antfu/taze): A modern cli tool that keeps your deps fresh
 + [rimraf](https://github.com/isaacs/rimraf): A `rm -rf` util for nodejs
 + [degit](https://github.com/tiged/tiged): Straightforward project scaffolding (community driven fork)
 + [http-server](https://github.com/http-party/http-server): A simple zero-configuration command-line http server
