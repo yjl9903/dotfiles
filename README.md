@@ -17,6 +17,10 @@ Zsh: [.zshrc](/.zshrc)
 
 Terminal: [Windows Terminal](https://github.com/microsoft/terminal)
 
+Profile: [Microsoft.PowerShell_profile.ps1](/Microsoft.PowerShell_profile.ps1)
+
+> Run `code $PROFILE` to open profile.
+
 ## CLI
 
 + [Volta](https://volta.sh/): The Hassle-Free JavaScript Tool Manager
