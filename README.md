@@ -33,6 +33,7 @@ Profile: [Microsoft.PowerShell_profile.ps1](/Microsoft.PowerShell_profile.ps1)
 
 ### npm
 
++ [tsx](https://github.com/esbuild-kit/tsx): Node.js enhanced with esbuild to run TypeScript & ESM
 + [taze](https://github.com/antfu/taze): A modern cli tool that keeps your deps fresh
 + [rimraf](https://github.com/isaacs/rimraf): A `rm -rf` util for nodejs
 + [degit](https://github.com/tiged/tiged): Straightforward project scaffolding (community driven fork)
