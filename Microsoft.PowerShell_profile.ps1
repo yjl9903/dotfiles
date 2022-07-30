@@ -18,6 +18,22 @@ Function Lsd-Tree { lsd --tree }
 New-Alias -Name lt -Value Lsd-Tree
 # ---
 
+# --- PSReadLine ---
+# Installation: `Install-Module PSReadLine`
+Import-Module PSReadLine
+
+# Shows navigable menu of all options when hitting Tab
+Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
+
+# Autocompleteion for Arrow keys
+Set-PSReadLineOption -HistorySearchCursorMovesToEnd
+Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
+Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
+
+Set-PSReadLineOption -ShowToolTips
+Set-PSReadLineOption -PredictionSource History
+# --- PSReadLine ---
+
 if (Test-Path "C:\Users\XLor\.jabba\jabba.ps1") { . "C:\Users\XLor\.jabba\jabba.ps1" }
 jabba use "openjdk@1.11.0"
 
