@@ -1,0 +1,13 @@
+[user]
+	name = XLor
+	email = yjl9903@vip.qq.com
+
+[core]
+	editor = "code --wait"
+	autocrlf = input
+	safecrlf = true
+
+[alias]
+	amend = commit --amend --no-verify
+  pusht = push --tags
+  pushd = push --delete
