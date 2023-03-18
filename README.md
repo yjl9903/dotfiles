@@ -13,6 +13,8 @@ Zsh: [.zshrc](/.zshrc)
 + [Snipaste](https://www.snipaste.com/): A simple but powerful snipping tool, and also allows you to pin the screenshot back onto the screen
 + [Fig](https://fig.io/): Fig adds IDE-style autocomplete to your existing terminal
 + [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal): Finder Toolbar app for macOS to open the current directory in Terminal, iTerm, Hyper or Alacritty.
++ [Raycast](https://www.raycast.com/): Raycast is a blazingly fast, totally extendable launcher. It lets you complete tasks, calculate, share common links, and much more.
++ [CheatSheet](https://www.mediaatelier.com/CheatSheet/): Know your shortcuts.
 
 ## Windows
 
