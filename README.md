@@ -15,6 +15,7 @@ Zsh: [.zshrc](/.zshrc)
 + [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal): Finder Toolbar app for macOS to open the current directory in Terminal, iTerm, Hyper or Alacritty.
 + [Raycast](https://www.raycast.com/): Raycast is a blazingly fast, totally extendable launcher. It lets you complete tasks, calculate, share common links, and much more.
 + [CheatSheet](https://www.mediaatelier.com/CheatSheet/): Know your shortcuts.
++ [Scroll Reverser](https://pilotmoon.com/scrollreverser/): Scroll Reverser is a free Mac app that reverses the direction of scrolling, with independent settings for trackpads and mice.
 
 ## Windows
 
