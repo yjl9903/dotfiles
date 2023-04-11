@@ -4,3 +4,4 @@ set tabstop=2
 set shiftwidth=2
 set cin
 set mouse=a
+set clipboard=unnamed
