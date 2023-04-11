@@ -6,9 +6,9 @@ export EDITOR=code
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 
-#### proxy
+#### clash proxy
 function proxy {
-  if [ -z "$1" ] ; then
+  if [ -z "$1" ] || [ "$1" = "on" ] ; then
     export https_proxy=http://127.0.0.1:7890
     export http_proxy=http://127.0.0.1:7890
     export all_proxy=socks5://127.0.0.1:7890
@@ -16,12 +16,11 @@ function proxy {
     export https_proxy=
     export http_proxy=
     export all_proxy=
-  elif [ "$1" = "test" ] ; then
-    echo "HTTP_PROXY = $http_proxy"
+  elif [ "$1" = "list" ] || [ "$1" = "test" ] ; then
+    echo "HTTP_PROXY  = $http_proxy"
     echo "HTTPS_PROXY = $https_proxy"
   fi
 }
-
 proxy
 #### proxy
 
