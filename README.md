@@ -25,6 +25,10 @@ Profile: [Microsoft.PowerShell_profile.ps1](/Microsoft.PowerShell_profile.ps1)
 
 > Run `code $PROFILE` to open profile.
 
+### Tools
+
++ [nssm](https://nssm.cc/): nssm is a service helper which doesn't suck
+
 ## CLI
 
 + [Volta](https://volta.sh/): The Hassle-Free JavaScript Tool Manager
@@ -35,6 +39,11 @@ Profile: [Microsoft.PowerShell_profile.ps1](/Microsoft.PowerShell_profile.ps1)
 + [fd](https://github.com/sharkdp/fd): A simple, fast and user-friendly alternative to 'find'
 + [bore](https://github.com/ekzhang/bore): bore is a simple CLI tool for making tunnels to localhost
 + [delta](https://github.com/dandavison/delta): A syntax-highlighting pager for git, diff, and grep output
+
+### General
+
++ [alist](https://alist.nn.ci/): A file list program that supports multiple storage, powered by Gin and Solidjs.
++ [rclone](https://rclone.org/): Rclone is a command-line program to manage files on cloud storage. 
 
 ### npm
 
