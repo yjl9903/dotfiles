@@ -6,6 +6,8 @@ Terminal: [Warp](https://www.warp.dev/)
 
 Zsh: [.zshrc](/.zshrc)
 
+Input method: [Rime](https://rime.im/), [从 macOS 到 iPhone 全面拥抱 RIME 输入法](https://x.geekbb.ml/RIME), [Rime Squirrel 鼠须管输入法配置详解](https://ssnhd.com/2022/01/06/rime/)
+
 ### Tools
 
 + [Homebrew](https://brew.sh/): The Missing Package Manager for macOS
