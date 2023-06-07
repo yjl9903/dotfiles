@@ -59,6 +59,12 @@ function setup_rust {
 }
 
 function setup_cli {
+  if test_command bat ; then
+    echo_installed "$(bat --version)"
+  else
+    cargo install bat --locked
+  fi
+
   if test_command btm ; then
     echo_installed "$(btm --version)"
   else
