@@ -30,6 +30,7 @@ Profile: [Microsoft.PowerShell_profile.ps1](/Microsoft.PowerShell_profile.ps1)
 ### Tools
 
 + [nssm](https://nssm.cc/): nssm is a service helper which doesn't suck
++ [RaiDrive](https://www.raidrive.com/): Make Cloud Storage, NAS as a drive in File Explorer
 
 ## CLI
 
