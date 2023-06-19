@@ -96,5 +96,16 @@ function setup_cli {
   fi
 }
 
-# Install cli tools
-npm i -g pnpm taze rimraf tsx
+# Setup cli tools for local machine
+function setup_local {
+  setup_node
+  setup_rust
+  setup_cli
+}
+
+# Install cli tools for codespace
+function setup_codespace {
+  npm i -g pnpm taze rimraf tsx
+}
+
+setup_codespace

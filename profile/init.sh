@@ -2,6 +2,10 @@
 
 set -eu
 
+export PATH="$HOME/.bin/:$PATH"
+
+export EDITOR=code
+
 # https://github.com/sharkdp/bat
 alias cat='bat'
 
