@@ -43,6 +43,7 @@ Profile: [Microsoft.PowerShell_profile.ps1](/Microsoft.PowerShell_profile.ps1)
 + [fd](https://github.com/sharkdp/fd): A simple, fast and user-friendly alternative to 'find'
 + [bore](https://github.com/ekzhang/bore): bore is a simple CLI tool for making tunnels to localhost
 + [delta](https://github.com/dandavison/delta): A syntax-highlighting pager for git, diff, and grep output
++ [yazi](https://github.com/sxyazi/yazi): Blazing fast terminal file manager written in Rust, based on async I/O.
 
 ### General
 
