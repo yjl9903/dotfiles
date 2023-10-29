@@ -5,16 +5,16 @@ Set-Alias -Name cat -Value bat -Option AllScope
 # Use lsd instead of raw ls
 Set-Alias -Name ls -Value lsd -Option AllScope
 
-Function Lsd-L { lsd -l }
+Function Lsd-L { lsd -l @args }
 New-Alias -Name ll -Value Lsd-L
 
-Function Lsd-A { lsd -a }
+Function Lsd-A { lsd -a @args }
 New-Alias -Name la -Value Lsd-A
 
-Function Lsd-LA { lsd -la }
+Function Lsd-LA { lsd -la @args }
 New-Alias -Name lla -Value Lsd-LA
 
-Function Lsd-Tree { lsd --tree }
+Function Lsd-Tree { lsd --tree @args }
 New-Alias -Name lt -Value Lsd-Tree
 # ---
 
