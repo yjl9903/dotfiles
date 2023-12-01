@@ -21,6 +21,8 @@ Input method: [Rime](https://rime.im/), [从 macOS 到 iPhone 全面拥抱 RIME 
 
 ## Windows
 
+[ExplorerPatcher](https://github.com/valinet/ExplorerPatcher): This project aims to enhance the working environment on Windows
+
 Terminal: [Windows Terminal](https://github.com/microsoft/terminal)
 
 Profile: [Microsoft.PowerShell_profile.ps1](/Microsoft.PowerShell_profile.ps1)
