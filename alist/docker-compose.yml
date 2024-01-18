@@ -1,0 +1,45 @@
+version: '3.9'
+
+services:
+  alist:
+    image: xhofe/alist:latest
+    container_name: alist
+    restart: always
+    environment:
+      - PUID=0
+      - PGID=0
+      - UMASK=022
+      - TZ=Asia/Shanghai
+    volumes:
+      - /etc/alist:/opt/alist/data
+      - /opt/alist/data:/opt/alist/data
+      - ./downloads:/downloads
+    networks:
+      - alist_net
+    ports:
+      - 5244:5244
+
+  # qbittorrent:
+  #   image: lscr.io/linuxserver/qbittorrent:latest
+  #   container_name: qbittorrent
+  #   restart: unless-stopped
+  #   environment:
+  #     - PUID=1000
+  #     - PGID=1000
+  #     - TZ=Asia/Shanghai
+  #     - WEBUI_PORT=8080
+  #   volumes:
+  #     - ./appdata/config:/config
+  #     - ./downloads:/downloads
+  #     - ./ui:/ui
+  #     - /opt/alist/data:/opt/alist/data
+  #   networks:
+  #     - alist_net
+  #   ports:
+  #     - 8080:8080
+  #     - 6881:6881
+  #     - 6881:6881/udp
+
+networks:
+  alist_net:
+
