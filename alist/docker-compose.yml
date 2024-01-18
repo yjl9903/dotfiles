@@ -13,7 +13,7 @@ services:
     volumes:
       - /etc/alist:/opt/alist/data
       - /opt/alist/data:/opt/alist/data
-      - ./downloads:/downloads
+      # - ./downloads:/downloads
     networks:
       - alist_net
     ports:
