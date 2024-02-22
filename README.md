@@ -1,5 +1,9 @@
 # Dotfiles
 
+## Cross-platforms
+
++ [localsend](https://github.com/localsend/localsend): An open-source cross-platform alternative to AirDrop
+
 ## macOS
 
 Terminal: [Warp](https://www.warp.dev/)
