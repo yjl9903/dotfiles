@@ -7,6 +7,10 @@ case "$1" in
   "backup")
     zip -r archive.zip /etc/alist
     ;;
+  "update")
+    docker compose pull
+    docker compose up -d
+    ;;
   *)
     echo ""
     ;;
