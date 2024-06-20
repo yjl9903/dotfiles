@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Battery_position</key>
+	<integer>7</integer>
+	<key>Battery_state</key>
+	<false/>
+	<key>Bluetooth_position</key>
+	<integer>5</integer>
+	<key>CPU_barChart_position</key>
+	<integer>2</integer>
+	<key>CPU_label_position</key>
+	<integer>5</integer>
+	<key>CPU_lineChart_position</key>
+	<integer>1</integer>
+	<key>CPU_line_chart_box</key>
+	<false/>
+	<key>CPU_line_chart_color</key>
+	<string>monochrome</string>
+	<key>CPU_mini_position</key>
+	<integer>0</integer>
+	<key>CPU_pieChart_position</key>
+	<integer>3</integer>
+	<key>CPU_position</key>
+	<integer>2</integer>
+	<key>CPU_state</key>
+	<true/>
+	<key>CPU_tachometer_position</key>
+	<integer>4</integer>
+	<key>CPU_widget</key>
+	<string>mini</string>
+	<key>Clock_position</key>
+	<integer>8</integer>
+	<key>CombinedModules</key>
+	<true/>
+	<key>Disk_barChart_position</key>
+	<integer>2</integer>
+	<key>Disk_label_position</key>
+	<integer>1</integer>
+	<key>Disk_memory_position</key>
+	<integer>4</integer>
+	<key>Disk_mini_position</key>
+	<integer>0</integer>
+	<key>Disk_networkChart_position</key>
+	<integer>5</integer>
+	<key>Disk_pieChart_position</key>
+	<integer>3</integer>
+	<key>Disk_position</key>
+	<integer>6</integer>
+	<key>Disk_speed_position</key>
+	<integer>6</integer>
+	<key>Disk_state</key>
+	<true/>
+	<key>Disk_widget</key>
+	<string>mini</string>
+	<key>GPU_position</key>
+	<integer>1</integer>
+	<key>LaunchAtLoginNext</key>
+	<true/>
+	<key>NSStatusItem Preferred Position CombinedModules</key>
+	<real>468</real>
+	<key>NSStatusItem Restore Position Battery</key>
+	<integer>878</integer>
+	<key>NSStatusItem Restore Position CPU</key>
+	<integer>725</integer>
+	<key>NSStatusItem Restore Position Disk</key>
+	<integer>827</integer>
+	<key>NSStatusItem Restore Position Network</key>
+	<integer>924</integer>
+	<key>NSStatusItem Restore Position RAM</key>
+	<integer>776</integer>
+	<key>NSToolbar Configuration eu.exelban.Stats.Settings.Toolbar</key>
+	<dict>
+		<key>TB Display Mode</key>
+		<integer>1</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<true/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWindow Frame NSNavPanelAutosaveName</key>
+	<string>516 552 408 163 0 0 1440 875 </string>
+	<key>Network_position</key>
+	<integer>0</integer>
+	<key>Network_speed_valueColor</key>
+	<false/>
+	<key>Network_state</key>
+	<false/>
+	<key>RAM_position</key>
+	<integer>3</integer>
+	<key>RAM_state</key>
+	<true/>
+	<key>Sensors_barChart_position</key>
+	<integer>2</integer>
+	<key>Sensors_label_position</key>
+	<integer>1</integer>
+	<key>Sensors_position</key>
+	<integer>4</integer>
+	<key>Sensors_stack_position</key>
+	<integer>0</integer>
+	<key>Sensors_state</key>
+	<false/>
+	<key>Sensors_widget</key>
+	<string>sensors</string>
+	<key>dockIcon</key>
+	<false/>
+	<key>pause</key>
+	<false/>
+	<key>runAtLoginInitialized</key>
+	<true/>
+	<key>setupProcess</key>
+	<true/>
+	<key>telemetry</key>
+	<false/>
+	<key>telemetry_id</key>
+	<string>C3926088-B9EA-4D0A-ACD3-F04044BC56E2</string>
+	<key>updater_check_ts</key>
+	<integer>1718706923</integer>
+	<key>version</key>
+	<string>2.10.18</string>
+</dict>
+</plist>
