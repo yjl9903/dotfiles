@@ -23,6 +23,7 @@ Bar: [Hidden Bar](https://apps.apple.com/cn/app/hidden-bar/id1452453066), [Stats
 + [Raycast](https://www.raycast.com/): Raycast is a blazingly fast, totally extendable launcher. It lets you complete tasks, calculate, share common links, and much more.
 + [CheatSheet](https://www.mediaatelier.com/CheatSheet/): Know your shortcuts.
 + [Scroll Reverser](https://pilotmoon.com/scrollreverser/): Scroll Reverser is a free Mac app that reverses the direction of scrolling, with independent settings for trackpads and mice.
++ [IINA](https://github.com/iina/iina): The modern media player for macOS.
 
 ## Windows
 
