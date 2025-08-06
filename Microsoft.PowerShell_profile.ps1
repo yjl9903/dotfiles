@@ -1,40 +1,54 @@
 $OutputEncoding = [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
 
+# --- lsd start ---
 Set-Alias -Name cat -Value bat -Option AllScope
 
-# Use lsd instead of raw ls
 Set-Alias -Name ls -Value lsd -Option AllScope
 
-Function Lsd-L { lsd -l @args }
-New-Alias -Name ll -Value Lsd-L
+Function Get-LsdL { lsd -l @args }
+New-Alias -Name ll -Value Get-LsdL
 
-Function Lsd-A { lsd -a @args }
-New-Alias -Name la -Value Lsd-A
+Function Get-LsdA { lsd -a @args }
+New-Alias -Name la -Value Get-LsdA
 
-Function Lsd-LA { lsd -la @args }
-New-Alias -Name lla -Value Lsd-LA
+Function Get-LsdLA { lsd -la @args }
+New-Alias -Name lla -Value Get-LsdLA
 
-Function Lsd-Tree { lsd --tree @args }
-New-Alias -Name lt -Value Lsd-Tree
-# ---
+Function Get-LsdTree { lsd --tree @args }
+New-Alias -Name lt -Value Get-LsdTree
+# --- lsd end ---
 
-# --- PSReadLine ---
-# Installation: `Install-Module PSReadLine`
-Import-Module PSReadLine
+# Function Setup_Fnm {
+#   fnm env --use-on-cd | Out-String | Invoke-Expression
+#   Write-Output "node: $(node --version)"
+#   Write-Output "npm:  v$(npm --version)"
+# }
+# New-Alias -Name setup-fnm -Value Setup_Fnm
 
-# Shows navigable menu of all options when hitting Tab
-Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
+# fnm env --use-on-cd | Out-String | Invoke-Expression
 
-# Autocompleteion for Arrow keys
-Set-PSReadLineOption -HistorySearchCursorMovesToEnd
-Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
-Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
+# mise start
+$shimPath = "$env:USERPROFILE\AppData\Local\mise\shims"
+$currentPath = [Environment]::GetEnvironmentVariable('Path', 'User')
+$newPath = $currentPath + ";" + $shimPath
+[Environment]::SetEnvironmentVariable('Path', $newPath, 'User')
+# mise end
 
-Set-PSReadLineOption -ShowToolTips
-Set-PSReadLineOption -PredictionSource History
-# --- PSReadLine ---
+if ($env:WT_SESSION) {
+  # --- PSReadLine ---
+  Import-Module PSReadLine
 
-if (Test-Path "C:\Users\XLor\.jabba\jabba.ps1") { . "C:\Users\XLor\.jabba\jabba.ps1" }
-jabba use "openjdk@1.11.0"
+  # Shows navigable menu of all options when hitting Tab
+  Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
 
-Invoke-Expression (&starship init powershell)
+  # Autocompleteion for Arrow keys
+  Set-PSReadLineOption -HistorySearchCursorMovesToEnd
+  Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
+  Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
+
+  Set-PSReadLineOption -ShowToolTips
+  Set-PSReadLineOption -PredictionSource History
+  # --- PSReadLine ---
+
+  Invoke-Expression (&starship init powershell)
+}
