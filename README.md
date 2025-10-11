@@ -14,6 +14,8 @@ Input method: [Rime](https://rime.im/), [从 macOS 到 iPhone 全面拥抱 RIME 
 
 Bar: [Hidden Bar](https://apps.apple.com/cn/app/hidden-bar/id1452453066), [Stats](https://github.com/exelban/stats)
 
+> node.js mirror: https://nodejs.raccoon-tw.dev/
+
 ### Tools
 
 + [Homebrew](https://brew.sh/): The Missing Package Manager for macOS
