@@ -27,6 +27,14 @@ Bar: [Hidden Bar](https://apps.apple.com/cn/app/hidden-bar/id1452453066), [Stats
 + [Scroll Reverser](https://pilotmoon.com/scrollreverser/): Scroll Reverser is a free Mac app that reverses the direction of scrolling, with independent settings for trackpads and mice.
 + [IINA](https://github.com/iina/iina): The modern media player for macOS.
 
+### Setup
+
+Remove capslock delay.
+
+```bash
+hidutil property --set '{"CapsLockDelayOverride":0}'
+```
+
 ## Windows
 
 [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher): This project aims to enhance the working environment on Windows
